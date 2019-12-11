@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.model.Event;
-import com.example.model.GeoLocSerializer;
+//import com.example.model.GeoLocSerializer;
 import com.example.model.GeoLocation;
 import com.example.model.Incident;
 import com.example.model.Locations;
@@ -44,6 +44,8 @@ import com.example.model.TrafficIncidentResponse;
 import com.example.services.TrafficFeedService;
 import com.example.util.GeoLocationAdapter;
 import com.example.util.TrafficDataUtil;
+import com.example.util.GeoLocSerializer;
+
 //import javax.json.bind.JsonbConfig;
 
 
