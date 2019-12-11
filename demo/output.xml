@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<incident>
+    <ti table="120" tv="2Q2016" fv="1.0" at="2019-03-31T21:12:15Z">
+        <event>
+            <id>23317403</id>
+            <eventCode>702</eventCode>
+            <severity>3</severity>
+            <loc type="geo">
+                <geo lat="40.717075" lon="-74.00625"/>
+                <addr>Worth St</addr>
+            </loc>
+            <valid start="2019-03-02T05:00:00Z" end="2019-04-02T03:58:59Z"/>
+            <text lang="e">In Manhattan, major road construction on Worth St between W Broadway and Church St.</text>
+            <delay>8</delay>
+            <lastUpdated>2019-11-28T19:52:34.083-05:00</lastUpdated>
+            <type>TrafficIncident</type>
+            <validStart>2019-02-10T05:00:00Z</validStart>
+            <validEnd>2019-04-13T03:58:59Z</validEnd>
+            <description>In Manhattan, major road construction on Worth St between W Broadway and Church St.</description>
+        </event>
+        <event>
+            <id>24049284</id>
+            <eventCode>701</eventCode>
+            <severity>2</severity>
+            <geo type="tmc">
+                <table>0</table>
+                <start id="16078" dir="+" offset="86" extent="14"/>
+            </geo>
+            <valid/>
+            <text lang="e">In Bronx, road construction on Creston Ave between Minerva Pl and E 198th St.</text>
+            <delay>0</delay>
+            <lastUpdated>2019-11-28T19:52:34.083-05:00</lastUpdated>
+            <type>TrafficIncident</type>
+            <description>In Bronx, road construction on Creston Ave between Minerva Pl and E 198th St.</description>
+        </event>
+    </ti>
+</incident>

@@ -1,0 +1,90 @@
+[
+    {
+        "id": 23317403,
+        "eventCode": 702,
+        "severity": 3,
+        "loc": {
+            "type": "geo"
+        },
+        "lastUpdated": "2019-11-25T21:04:16.229Z",
+        "type": "TrafficIncident",
+        "validStart": "2019-02-10T05:00:00Z",
+        "validEnd": "2019-04-13T03:58:59Z",
+        "description": "In Manhattan, major road construction on Worth St between W Broadway and Church St."
+    },
+    {
+        "id": 24049284,
+        "eventCode": 701,
+        "severity": 2,
+        "loc": {
+            "type": "tmc",
+            "start": {
+                "id": 16078,
+                "dir": "+",
+                "offset": 86,
+                "extent": 14
+            }
+        },
+        "lastUpdated": "2019-11-25T21:04:16.229Z",
+        "type": "TrafficIncident",
+        "description": "In Bronx, road construction on Creston Ave between Minerva Pl and E 198th St."
+    }
+]
+
+{
+    "locations": [
+        {
+            "delay": 8,
+            "description": "In Manhattan, major road construction on Worth St between W Broadway and Church St.",
+            "eventCode": 702,
+            "id": 23317403,
+            "lastUpdated": "2019-11-28T22:36:14.581Z[UTC]",
+            "loc": {
+                "locationType": "geo",
+                "addr": "Worth St",
+                "geoLoc": {
+                    "lat": 40.717075,
+                    "lon": -74.00625
+                }
+            },
+            "roadName": "Worth St",
+            "severity": 3,
+            "text": {
+                "lang": "e",
+                "text": "In Manhattan, major road construction on Worth St between W Broadway and Church St."
+            },
+            "type": "TrafficIncident",
+            "valid": {
+                "end": "2019-04-02T03:58:59Z",
+                "start": "2019-03-02T05:00:00Z"
+            },
+            "validEnd": "2019-04-13T03:58:59Z",
+            "validStart": "2019-02-10T05:00:00Z"
+        },
+        {
+            "delay": 0,
+            "description": "In Bronx, road construction on Creston Ave between Minerva Pl and E 198th St.",
+            "eventCode": 701,
+            "id": 24049284,
+            "lastUpdated": "2019-11-28T22:36:14.581Z[UTC]",
+            "loc": {
+                "locationType": "tmc",
+                "start": {
+                    "dir": "+",
+                    "extent": 14,
+                    "id": 16078,
+                    "offset": 86
+                },
+                "table": 120
+            },
+            "severity": 2,
+            "text": {
+                "lang": "e",
+                "text": "In Bronx, road construction on Creston Ave between Minerva Pl and E 198th St."
+            },
+            "type": "TrafficIncident",
+            "valid": {
+            }
+        }
+    ]
+}

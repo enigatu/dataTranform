@@ -1,0 +1,73 @@
+{ 
+  “locations”: [ 
+    { 
+      "​_id​": ​"224155332"​, 
+      "​description​": ​"In Greenview No. 16, animals on roadway on AB-40 EB 
+etween  Forestry Trunk Rd and Pierre Greys Lake Rd."​, 
+      "​geo​": ​{ 
+        "​type​": ​"Point"​, 
+        "​coordinates​": ​[ 
+          -118.67265​, 
+          53.924755 
+        ] 
+      }​, 
+      "​roadName​": ​"AB-40"​, 
+      "​eventCode​": ​922​, 
+      "​severity​": ​2​, 
+      "​validStart​": ​"2018-10-26T13:39:58.000Z"​, 
+      "​validEnd​": ​"2019-07-20T00:51:19.000Z"​, 
+      "​type​": ​"TrafficIncident"​, 
+      "​lastUpdated​": ​"2019-07-20T00:23:12.748Z" 
+    }, 
+    { 
+      "​_id​": ​"223155366"​, 
+      "​description​": ​"In Gibson, object on roadway on PA-120 EB between Church 
+t and Church St."​, 
+      "​tmc​": ​{ 
+        "​table​": ​4​, 
+        "​id​": ​12915​, 
+        "​direction​": ​"+"​, 
+      ​} 
+      "​eventCode​": ​61​, 
+      "​severity​": ​2​, 
+      "​validStart​": ​"2018-03-28T21:27:14.000Z"​, 
+      "​validEnd​": ​"2019-07-20T00:54:26.000Z"​, 
+      "​type​": ​"TrafficIncident"​, 
+      "​lastUpdated​": ​"2019-07-20T00:26:16.321Z" 
+    ​} 
+} 
+
+Field Source Field Description 
+_id id 
+description text 
+geo loc.geo id “geo” GeoJSON formatted location 
+tmc loc.start if “tmc” 
+table is determined by the value in 
+the “table” attribute in the parent <ti> 
+element 
+
+ 
+
+eventCode ec 
+severity se 
+validStart validStart 
+validEnd validEnd 
+type Always “TrafficIncident” 
+
+
+lastUpdated The time the output file was generated 
+formatted as ISO 8601. 
+
+ 
+
+Requirements 
+● Assume your library will be used in a production environment. It should be structured 
+and written to be maintainable, flexible and extensible.  Anything you wouldn’t normally 
+do in such a situation please make note of in a comment (it’s fine, this is just an exercise 
+and we won’t really be using it in a production environment). 
+● All code must be Java 8 compatible. Please use any Java 8 features where appropriate 
+(Lambdas, Generics, concurrency, etc.).  But, don’t use them just to use them. 
+● Use any 3rd party open source library you would like. 
+● Provide a main() method that demonstrates the usage of your library. 
+● Provide a build script that produces a runnable JAR file (e.g. java -jar transform.jar). 
+● If you have any questions please ask. 
